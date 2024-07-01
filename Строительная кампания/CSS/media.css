@@ -1,0 +1,642 @@
+@media (max-width: 1850px) {
+  .faq__list {
+    flex-direction: column;
+  }
+
+  .footer__right {
+    display: none;
+  }
+
+  .footer__left {
+    margin-right: auto;
+  }
+
+  .footer__middle {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .about-us__left {
+    width: 60%;
+  }
+
+  .about-us__right {
+    width: 37%;
+  }
+
+  /* .about-us__image-descr {
+    padding: 40px 50px 40px 44px;
+  } */
+
+  .about-us__right__in {
+    padding: 175px 30px 30px 30px;
+    background-position: 50% 5%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-us__down {
+    flex-direction: column;
+  }
+
+  .faq__list {
+    flex-direction: column;
+  }
+
+  .footer__right {
+    display: none;
+  }
+
+  .header {
+    padding: 26px 0;
+  }
+
+  .header__container {
+    justify-content: space-between;
+    gap: 20px 44px;
+    padding: 0 50px;
+  }
+
+  .header__logo {
+    width: 150px;
+    height: 48px;
+    margin-right: 0;
+  }
+
+  .header__nav {
+    margin-right: 0;
+  }
+
+  .header__item {
+    margin-right: 60px;
+  }
+
+  .header__list {
+    margin-right: 0;
+  }
+
+  .offset {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hero__text {
+    padding: 160px 77px;
+    min-height: 668px;
+    background-size: cover;
+  }
+
+  .hero__h1 {
+    font-size: 60px;
+    line-height: 73.14px;
+    margin-bottom: 17px;
+  }
+
+  .hero__descr {
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-bottom: 60px;
+  }
+
+  .hero {
+    padding-bottom: 37px;
+  }
+
+  .about-us__left {
+    width: 100%;
+    min-height: 640px;
+    margin-bottom: 32px;
+    margin-right: 0;
+    background-image: url(../img/Rectangle-2worker1024.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .about-us__right {
+    width: 100%;
+  }
+
+  .about-us__right__in {
+    padding: 63px 65px 66px 316px;
+    width: 100%;
+    background-position: 14.5% 42%;
+  }
+
+  .about-us {
+    padding-top: 0;
+    padding-bottom: 36px;
+  }
+
+  .how__flex::after {
+    min-height: 698px;
+    background-image: url(../img/Rectangle-18work1024.jpg);
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+    width: 224px;
+    height: 72px;
+  }
+
+  .footer__left {
+    margin-right: auto;
+  }
+
+  .footer__comment {
+    margin-bottom: 27px;
+  }
+
+  .footer__btn {
+    padding: 19px 37px 19px 36px;
+  }
+
+  .footer__form {
+    max-width: 541px;
+  }
+
+  .footer__middle {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero__text {
+    border-radius: 24px;
+    background-image: url(../img/low-angle-photo-of-balconies-2462015-1-back768.jpg);
+    padding: 160px 40px;
+  }
+
+  .hero__h1 {
+    margin-bottom: 16px;
+    max-width: 588px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.95px;
+  }
+
+  .hero__descr {
+    margin-bottom: 60px;
+    max-width: 588px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+  }
+
+  .hero__btn {
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 16px;
+    padding: 25.57px 41.14px 24.57px 39.14px;
+    line-height: 28.04px;
+  }
+}
+
+@media (max-width: 992px) {
+  .how__flex {
+    flex-wrap: wrap;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+
+  .header__item {
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .header__list {
+    margin-right: 43px;
+  }
+
+  .header {
+    padding: 17px 0;
+  }
+
+  .header__logo {
+    width: 110px;
+    height: 35px;
+  }
+
+
+  .hero__text {
+    border-radius: 24px;
+    background-image: url(../img/low-angle-photo-of-balconies-2462015-1-back768.jpg);
+    padding: 160px 40px;
+  }
+
+  .hero__h1 {
+    margin-bottom: 16px;
+    max-width: 588px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.95px;
+  }
+
+  .hero__descr {
+    margin-bottom: 60px;
+    max-width: 588px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+  }
+
+  .hero__btn {
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 16px;
+    padding: 25.57px 41.14px 24.57px 39.14px;
+    line-height: 28.04px;
+  }
+
+  .hero {
+    padding-bottom: 31px;
+  }
+
+  .about-us__left {
+    min-height: 650px;
+    border-radius: 24px;
+    background-image: url(../img/Rectangle-2woker768.jpg);
+  }
+
+  .about-us__image-descr {
+    font-size: 15px;
+  }
+
+  .about-us__right__in {
+    border-radius: 24px;
+    padding: 35px 46px 35px 253px;
+    min-height: 235px;
+    background-position: 6% 42%;
+    background-size: 20%;
+  }
+
+  .about-us__right__bg2 {
+    background-image: url(../img/Frame-122-768.svg);
+  }
+
+  .about-us__right__bg1 {
+    background-image: url(../img/Frame-161-768.svg);
+  }
+
+  .how__left {
+    width: 100%;
+    order: 1;
+    margin-right: 0;
+  }
+
+  .how__title {
+    margin-bottom: 22px;
+  }
+
+  .how__flex::after {
+    order: 0;
+    height: 284px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+    background-image: url(../img/Rectangle-18work768.jpg);
+    border-radius: 24px;
+  }
+
+  .how__descr {
+    max-width: 100%;
+  }
+
+  .faq__item1,
+  .faq__item {
+    padding: 35px 65px 33px 40px;
+  }
+
+  .faq {
+    margin-bottom: 42px;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer__left {
+    order: 2;
+  }
+
+  .footer__middle {
+    order: 1;
+    margin-bottom: 50px;
+  }
+
+  .footer__comment {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .offset {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .header{
+    padding: 17px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+  }
+
+  .header__nav {
+    flex-basis: 100%;
+    order: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 0;
+  }
+
+  .header__link-svg {
+    order: 0;
+  }
+
+  .header__item {
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+  }
+
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background-image: url(../img/low-angle-photo-of-balconies-2462015-1back320.jpg);
+    padding: 60px 22px;
+    min-width: 100%;
+    min-height: 208px;
+  }
+
+  .hero__h1 {
+    text-align: center;
+    margin-bottom: 6px;
+    max-width: 247px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.38px;
+  }
+
+  .hero__descr {
+    text-align: center;
+    margin-bottom: 34px;
+    max-width: 588px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+  }
+
+  .hero__btn {
+    border-radius: 8px;
+    line-height: 28.04px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 7.57px 28.14px 18.57px 29.14px;
+    max-height: 41px;
+  }
+
+  .h2-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+  }
+
+  .about-us {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+
+  .about-us__descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 14px;
+  }
+
+  .about-us__left {
+    display: flex;
+    min-height: auto;
+    background-image: none;
+  }
+
+  .about-us__image-block::before {
+    content: '';
+    margin-bottom: 9px;
+    min-width: 100%;
+    min-height: 200px;
+    background-image: url(../img/Rectangle-2worker320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+  }
+
+  .about-us__image-block {
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+    background: none;
+    backdrop-filter: none;
+    gap: 0;
+  }
+
+  .about-us__image-descr {
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .about-us__btn {
+    color: #FF9900;
+    font-size: 12px;
+    line-height: 14.63px;
+    border-radius: 8px;
+    padding: 11px 42px 9px 40px;
+  }
+
+  .about-us__btn:hover,
+  .about-us__btn:focus {
+    background: #FF9900;
+    color: #FFFFFF;
+  }
+
+  .about-us__right__in {
+    border: none;
+    padding: 0;
+    min-height: 235px;
+    background-position: 0% 0%;
+    background-size: 22%;
+    padding-top: 62px;
+  }
+
+  .about-us__right__bg1 {
+    background-image: url(../img/Frame-391-320.svg);
+  }
+
+  .about-us__right__bg2 {
+    background-image: url(../img/Frame-382-320.svg);
+  }
+
+  .about-us__h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21.94px;
+    margin-bottom: 5px;
+  }
+
+  .about-us__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .how__title {
+    margin-bottom: 18px;
+  }
+
+  .how__flex::after {
+    height: 160px;
+    min-height: 160px;
+    margin-bottom: 16px;
+    background-image: url(../img/Rectangle-18work320.jpg);
+    border-radius: 16px;
+  }
+
+  .how__caption {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .how__descr {
+    margin-bottom: 25px;
+    margin-right: 50px;
+    min-width: 290px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .how__more {
+    padding: 13px 44px 12px 44px;
+    border-radius: 8px;
+    margin-right: 6px;
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .how__agreement {
+    padding: 12px 31px 10px 31px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .faq__title {
+    margin-bottom: 21px;
+  }
+
+  .faq__item1,
+  .faq__item {
+    min-width: 290px;
+    padding: 0;
+    border: none;
+  }
+
+  .faq__question {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    margin-bottom: 4px;
+  }
+
+  .faq__answer {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .faq {
+    margin-bottom: 29px;
+  }
+
+  .footer__container {
+    padding-top: 30px;
+  }
+
+  .footer__h3 {
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-bottom: 18px;
+  }
+
+  .footer__comment {
+    margin-bottom: 26px;
+  }
+
+  .footer__btn {
+    margin-right: 0;
+    padding: 13px 20px 19px 19px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    max-height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .footer__logo {
+    margin-bottom: 6px;
+    width: 131px;
+    height: 42px;
+  }
+
+  .footer__form {
+    max-width: 290px;
+  }
+
+  .footer__middle {
+    min-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .footer__down {
+    flex-direction: column;
+  }
+
+  .footer__svg {
+    scale: 0.7;
+  }
+
+  .footer__left {
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .footer__left::before {
+    content: "";
+    width: 100%;
+    border-top: 1px solid  rgba(65, 65, 65, 1);
+    margin-bottom: 16px;
+  }
+
+  .footer__list__icons {
+    gap: 0px;
+  }
+}
